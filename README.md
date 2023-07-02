@@ -12,7 +12,7 @@ Make sure you have the following libraries installed:
 - pymysql
 - sqlalchemy
 - tqdm
-- binance
+- python-binance
 - matplotlib
 - statsmodels
 - arch
@@ -21,14 +21,7 @@ Make sure you have the following libraries installed:
 
 1. Clone the repository: git clone https://github.com/kings-data-quest/Crypto_time_series_analysis
 2. Install the required packages: pip install -r requirements.txt
-3. 
-## Usage
 
-1. Run the script `data_collection.py` to collect cryptocurrency price data from Binance and store it in a SQLite database.
-
-2. Run the script `data_processing.py` to preprocess the collected data, calculate returns, normalize values, and split the data into training and testing sets.
-
-3. Run the script `data_analysis.py` to perform various analyses on the data, including plotting, statistical tests, outlier detection, volatility modeling, and prediction.
 
 ## Examples
 
